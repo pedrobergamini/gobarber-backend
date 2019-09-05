@@ -91,7 +91,7 @@ class AppointmentController {
 
     const formattedDate = format(
       hourStart,
-      "'dia' dd 'de' MMMM', às' H:MM'h'",
+      "'dia' dd 'de' MMMM', às' H:mm'h'",
       { locale: pt }
     );
 
